@@ -1,0 +1,47 @@
+.App {
+  width: 300px;
+  margin: auto;
+  border: 3px solid #000;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.customerDetailsWrapper,
+.productWrapper {
+  border: 3px solid #000;
+  border-radius: 10px;
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.subscriptionWrapper {
+  width: max-content;
+}
+
+.productsListWrapper {
+  margin-top: 40px;
+}
+
+.productWrapper {
+  display: flex;
+}
+
+.productWrapper--image {
+  width: 100px;
+  height: 100px;
+  margin-right: 5px;
+}
+
+.productWrapper--details p {
+  margin: 10px;
+}
+
+.productWrapper--action {
+  margin: auto;
+  cursor: pointer;
+}
+
+.totalPriceWrapper {
+  text-align: right;
+}
